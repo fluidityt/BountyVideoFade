@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3C98211F0B56AD00EC1ABB /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D3C98201F0B56AD00EC1ABB /* sample.mp4 */; };
+		4DC6477B1F0B4D5A006C303C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6477A1F0B4D5A006C303C /* AppDelegate.swift */; };
+		4DC6477D1F0B4D5A006C303C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6477C1F0B4D5A006C303C /* GameScene.sks */; };
+		4DC6477F1F0B4D5A006C303C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6477E1F0B4D5A006C303C /* Actions.sks */; };
+		4DC647811F0B4D5A006C303C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC647801F0B4D5A006C303C /* GameScene.swift */; };
+		4DC647831F0B4D5A006C303C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC647821F0B4D5A006C303C /* GameViewController.swift */; };
+		4DC647861F0B4D5A006C303C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC647841F0B4D5A006C303C /* Main.storyboard */; };
+		4DC647881F0B4D5A006C303C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC647871F0B4D5A006C303C /* Assets.xcassets */; };
+		4DC6478B1F0B4D5A006C303C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC647891F0B4D5A006C303C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D3C98201F0B56AD00EC1ABB /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		4DC647771F0B4D59006C303C /* BountyVideoFade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyVideoFade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC6477A1F0B4D5A006C303C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DC6477C1F0B4D5A006C303C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4DC6477E1F0B4D5A006C303C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4DC647801F0B4D5A006C303C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4DC647821F0B4D5A006C303C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4DC647851F0B4D5A006C303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC647871F0B4D5A006C303C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC6478A1F0B4D5A006C303C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC6478C1F0B4D5A006C303C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC647741F0B4D59006C303C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC6476E1F0B4D59006C303C = {
+			isa = PBXGroup;
+			children = (
+				4DC647791F0B4D59006C303C /* BountyVideoFade */,
+				4DC647781F0B4D59006C303C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC647781F0B4D59006C303C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC647771F0B4D59006C303C /* BountyVideoFade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC647791F0B4D59006C303C /* BountyVideoFade */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6477A1F0B4D5A006C303C /* AppDelegate.swift */,
+				4DC6477C1F0B4D5A006C303C /* GameScene.sks */,
+				4DC6477E1F0B4D5A006C303C /* Actions.sks */,
+				4DC647801F0B4D5A006C303C /* GameScene.swift */,
+				4DC647821F0B4D5A006C303C /* GameViewController.swift */,
+				4DC647841F0B4D5A006C303C /* Main.storyboard */,
+				4D3C98201F0B56AD00EC1ABB /* sample.mp4 */,
+				4DC647871F0B4D5A006C303C /* Assets.xcassets */,
+				4DC647891F0B4D5A006C303C /* LaunchScreen.storyboard */,
+				4DC6478C1F0B4D5A006C303C /* Info.plist */,
+			);
+			path = BountyVideoFade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC647761F0B4D59006C303C /* BountyVideoFade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6478F1F0B4D5A006C303C /* Build configuration list for PBXNativeTarget "BountyVideoFade" */;
+			buildPhases = (
+				4DC647731F0B4D59006C303C /* Sources */,
+				4DC647741F0B4D59006C303C /* Frameworks */,
+				4DC647751F0B4D59006C303C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BountyVideoFade;
+			productName = BountyVideoFade;
+			productReference = 4DC647771F0B4D59006C303C /* BountyVideoFade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC6476F1F0B4D59006C303C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "justin fluidity";
+				TargetAttributes = {
+					4DC647761F0B4D59006C303C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57ES2MLM4Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DC647721F0B4D59006C303C /* Build configuration list for PBXProject "BountyVideoFade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC6476E1F0B4D59006C303C;
+			productRefGroup = 4DC647781F0B4D59006C303C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC647761F0B4D59006C303C /* BountyVideoFade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC647751F0B4D59006C303C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3C98211F0B56AD00EC1ABB /* sample.mp4 in Resources */,
+				4DC647861F0B4D5A006C303C /* Main.storyboard in Resources */,
+				4DC6477D1F0B4D5A006C303C /* GameScene.sks in Resources */,
+				4DC647881F0B4D5A006C303C /* Assets.xcassets in Resources */,
+				4DC6478B1F0B4D5A006C303C /* LaunchScreen.storyboard in Resources */,
+				4DC6477F1F0B4D5A006C303C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC647731F0B4D59006C303C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC647811F0B4D5A006C303C /* GameScene.swift in Sources */,
+				4DC647831F0B4D5A006C303C /* GameViewController.swift in Sources */,
+				4DC6477B1F0B4D5A006C303C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DC647841F0B4D5A006C303C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC647851F0B4D5A006C303C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC647891F0B4D5A006C303C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC6478A1F0B4D5A006C303C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC6478D1F0B4D5A006C303C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC6478E1F0B4D5A006C303C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC647901F0B4D5A006C303C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57ES2MLM4Y;
+				INFOPLIST_FILE = BountyVideoFade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.BountyVideoFade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4DC647911F0B4D5A006C303C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57ES2MLM4Y;
+				INFOPLIST_FILE = BountyVideoFade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.BountyVideoFade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC647721F0B4D59006C303C /* Build configuration list for PBXProject "BountyVideoFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6478D1F0B4D5A006C303C /* Debug */,
+				4DC6478E1F0B4D5A006C303C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6478F1F0B4D5A006C303C /* Build configuration list for PBXNativeTarget "BountyVideoFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC647901F0B4D5A006C303C /* Debug */,
+				4DC647911F0B4D5A006C303C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC6476F1F0B4D59006C303C /* Project object */;
+}
